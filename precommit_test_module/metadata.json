@@ -72,6 +72,6 @@
     }
   ],
   "pdk-version": "2.3.0",
-  "template-url": "pdk-default#2.3.0",
-  "template-ref": "tags/2.3.0-0-g8aaceff"
+  "template-url": "https://github.com/PatrickLaabs/pdk-templates#main",
+  "template-ref": "heads/main-0-g60dfe26"
 }

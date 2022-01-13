@@ -1,0 +1,21 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: trailing-whitespace
+-   repo: https://github.com/Bahjat/pre-commit-golang
+    rev: master
+    hooks:
+    -   id: go-lint
+-   repo: https://github.com/chriskuehl/puppet-pre-commit-hooks.git
+    sha: v2.1.0
+    hooks:
+    -   id: epp-validate
+    -   id: erb-validate
+    -   id: puppet-lint
+        args:
+          -   --fail-on-warnings
+    -   id: puppet-validate
+    -   id: r10k-validate
+    -   id: ruby-validate
